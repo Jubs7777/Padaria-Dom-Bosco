@@ -1,0 +1,56 @@
+/*Padrão*/
+*{
+    padding: 0;
+       margin: 0;
+         vertical-align: baseline;
+            list-style: none;
+               font-family: segoe UI, Roboto, Arial, Helvetica, sans-serif;
+
+}
+
+header { 
+    display: flex; /*Colocar os itens na mesma linha (lado a lado)*/
+      align-items: center; /*Alinhar os itens do nosso Header para o centro*/
+        justify-content: space-evenly; /*Tradução: Justificar-conteudo: espaço uniformente. Alinhar os itens igualmente dentro da página */
+          padding: 15px; /* Preenchimento*/
+            background-color: rgb(116, 77, 5); /*Cor de fundo do nosso Cabeçalho/Header*/
+             overflow: hidden; /* */
+               line-height: 200px; /*Altura da linha */
+                 max-height: 200px; /*Altura máxima*/
+}
+
+header > h1 { /*Selecionamos aqui a cor da letra da letra do nosso H1 ou seja, do nosso   titulo */
+    color: white; /*Chamamos a propriedade color e definimos uma cor em questão*/
+
+}
+
+
+header > img { /*Aqui estamos chamando nossa imagem para ser atribuidas alterações*/
+       width: 200px; /*Largura da nossa imagem*/
+         height: 115px; /*Tamanho da nossa imagem*/
+}
+
+#menu-header {  /*Nosso menu de navegação*/
+    display: flex; /*Responsavel por colocar os itens na mesma linha*/
+      align-items: center; /*Alinhar os itens do nosso Header para o centro*/
+
+}
+
+#list-menu { /*Nossa lista não ordenada, aqui mudaremos diretamente nossa lista*/
+    display: flex; /* Responsavel por colocar os itens na mesma linha (lado a lado) */
+       margin-right: 1rem; /*Margem da direita. 1 REM equivale a 16px, ou seja podemos usa-lo para facilitar a inserção de PX*/
+
+}
+
+.item-menu-header { /*Nossa li que estão dentro do LIST MENU, onde se encontram os nomes dos itens apresentados ao Header*/
+    margin-right: 25px;  /*Margem da direita*/
+}
+
+
+
+
+
+
+.item-menu-header > a:hover {
+
+}

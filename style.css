@@ -46,11 +46,64 @@ header > img { /*Aqui estamos chamando nossa imagem para ser atribuidas alteraç
     margin-right: 25px;  /*Margem da direita*/
 }
 
-
-
-
-
-
-.item-menu-header > a:hover {
-
+.item-menu-header > a:hover { /* Nossas li que estão dentro do LIST MENU. (a) nossa tag de link que é representada por: HOME/PRODUTOS/CONTATO, e o Hover responsável pela modificação de cor ao passar o cursor em cima.*/
+  color: yellow; /* Aqui atribuimos uma cor */
+  transition: 1s; /* E o tempo em que será exibido ao passar o cursor */
 }
+
+
+.item-menu-header > a { /* Nossas li que estão dentro do LIST MENU. (a) nossa tag de link que é representada por: HOME/PRODUTOS/CONTATO */
+color: white; /*Cor das letras*/
+text-decoration: none;  /* Responsável por tirar o sublinhado inferior que estava visível */
+font-size: 12px; /*Tamanho da letra*/
+}
+
+#botao-header { /*Nossa ID do Botão de Login */
+  display: flex; /*  Resposável por colocar os itens na mesma linha (lado a lado) */
+}
+
+#botao-header > button { /*  Resposável por colocar os itens na mesma linha (lado a lado) */
+  padding: 8px; /*  Resposável por colocar os itens na mesma linha (lado a lado) */
+  background-color: transparent; /* Aqui deixamos o fundo do Botão transparent, ou seja sem o fundo Branco que estava em primeiro plano */
+  border: none; /* None é usado para retirar algo, nesse caso a borda. */
+}
+
+#botao-header > button > a { /* Estamos chamando aqui nossa TAG de Link para alteração. */ 
+  display: flex;  /* Resposável por colocar os itens na mesma linha (lado a lado)  */
+  align-items: center;  /* Alinhar os itens para o centro */
+}
+
+#botao-header > button > a > img { /* Aqui estamos mexendo nO ICON do botão*/
+  width: 30px; /* Largura */
+  height: 30px; /* Tamanho */
+  margin-right: 2px; /* margem da direita */ 
+    }
+
+
+  #botao-header > button > a { /* Estamos chamando aqui nossa TAG de Link para alteração (NOVAMENTE) */
+    color: white; /*Cor da letra */
+    text-decoration: none; /* Responsável por tirar o sublinhado que estava visível */
+    font-weight: 400; /* espessura da fonte */
+    }
+
+
+    #img-destaque { /* Aqui chamamos a ID que chamamos no HTML*/
+      padding: 260px;  /* Cuida do Preenchimento */
+      background-image: url(img/padaria.webp); /* Usada para inserir imagens de fundo */
+      background-position: center; /* Aqui posicionamos nossa imagem para o centro */
+      background-size: cover;
+  }
+  
+  
+  /* Diferença entre ID e Class: A diferença entre um id e uma class é que um id é usado apenas para identificar um único elemento em nosso HTML. 
+  Os identificadores são usados ​​apenas quando um elemento na página precisa ter um estilo específico aplicado a ele. 
+  No entanto, uma class pode ser usada para identificar mais de um elemento HTML*/
+
+  .img-div {
+    padding: 25px;
+    background-image: url(img/img-div.jpg);
+    background-position: center;
+    background-size: auto;
+  }
+  
+  

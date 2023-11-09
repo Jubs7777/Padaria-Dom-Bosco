@@ -109,7 +109,8 @@ font-size: 12px; /*Tamanho da letra*/
   #clients > h2 { /* Aqui estamos chamando nosso H2 para estilização */
     text-align: center; /*Centralizar o h2*/
     font-size: 36px; /*Tamanho da letra*/
-    margin-top: 40px; /*Espaçamento superior*/
+    margin-top: 0px; /*Espaçamento superior*/
+    color: black;
   }
 
   #clients { /* Aqui chamamos nosso ID da Section*/
@@ -155,3 +156,5 @@ font-size: 12px; /*Tamanho da letra*/
     margin-top:10px; /* indica o espaço acima do elemento / superior */
     align-items: center; /* Alinhar os itens para o centro */
   }
+
+  

@@ -150,11 +150,80 @@ font-size: 12px; /*Tamanho da letra*/
     align-items: center;  /* Alinhar os itens para o centro */
   }
   
-  .clients-item > p {
+  .clients-item > p { /*Aqui chamamos nosso P para estilizar*/
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /*Fonte da letra*/
     font-size: 20px; /*Tamanho da fonte*/
     margin-top:10px; /* indica o espaço acima do elemento / superior */
     align-items: center; /* Alinhar os itens para o centro */
   }
 
+  #products { /*ID usada para a section dos nossos produtos*/
+    background: linear-gradient(180deg, #d49664 8.33%, rgba(244,200,175,0)100%); /*Aqui colocamos uma estilização de fundo em Degradê */
+    padding: 30px; /*Preenchimento*/
+  }
+
+  .section-products { /*Chamamos nossa div Pai para estilização*/
+   margin-top: 3rem; /*Espaçamento superior*/
+   display: flex; /*Tornando essa sessão Flex e jogando lado a lado*/
+   align-items: center; /*Alinhando itens ao centro*/
+   justify-content: space-evenly; /*Espaçamento justificado*/
+  }
+
+  .img-product { /*Aqui chamamos nossas imagens para edição*/
+    width: 300px; /*Largura das imagens*/
+    height: 300px; /*Altura das imagens*/
+    border-radius: 50px; /*Arredondamento das bordas*/
+  }
+
+  .title-products { /*Chamamos nosso titulo para estilização*/
+    margin-top: 10px ; /*Espaçamento do titulo em relação a IMG*/
+    font-family: Arial, Helvetica, sans-serif; /*Familia de fonte*/
+    text-align: center; /*Alinhamento do texto ao centro*/
+    font-size: 22px; /*Tamanho da letra*/
+  }
+
+  #products > a { /*Aqui chamamos nossa Tag "a" para estilizar*/
+    text-decoration: none; /*Desabilitamos a decoração (sublinhando)*/
+    font-family: Arial, Helvetica, sans-serif; /*Familia de fonte*/
+    font-size: 20px; /*Tamanho da fonte*/
+    color: black; /*Cor da letra*/
+    display: flex; /*Tornando em flex*/
+    justify-content: center; /*Alinhando ao centro*/
+    text-align: center; /*Alinhando ao centro*/
+  }
+
+  #products > h2 {
+    text-align: center;
+
+  }
+
+  #products > a:hover { /*Efeito ao passar o mouse*/
+    font-size: 22px; /*Tamanho da letra*/
+    transition: 0.8s; /*Tempo de transmição ao passar o mouse*/
+    color: tomato; /*Cor da letra ao passar o mouse*/
+  }
+
+#sobre-nos { /*Chamamos nosso sobre nós para estilização*/
+  background-image: url(img/fundo-sobre-nos.jpg); /*Inserimos aqui nossa imagem*/
+  background-repeat: no-repeat; /*Não repetição da imagem*/
+  background-position: center; /*Posicionamento da imagem ao centro*/
+  background-size: cover; /*Habilitando o tamanho total da imagem*/
+  background-attachment: fixed; /*Deixando a imagem fixada*/
+  padding: 120px; /*Tamanho do preenchimento da sessão*/
+}
+
+#sobre-nos > h3 { /*Aqui chamamos h3 para a estilização*/
+  color: white; /*Cor da letra*/
+  font-size: 60px; /*Tamanho da letra*/
+  text-align: center; /*Centralizar o texto*/
+  font-family: Arial, Helvetica, sans-serif; /*Fonte da familia*/
+}
   
+#sobre-nos > p { /*Aqui chamamos o P para a estilização*/
+  color: white; /*Cor da letra*/
+  font-size: 22px; /*Tamanho da letra*/
+  text-align:left; /**/
+  font-family: Arial, Helvetica, sans-serif; /*Fonte da familia*/
+  margin-top: 2rem; /*Espaçamento */
+  font-weight: 500; /**/
+}

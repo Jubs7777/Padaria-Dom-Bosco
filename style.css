@@ -110,7 +110,7 @@ font-size: 12px; /*Tamanho da letra*/
     text-align: center; /*Centralizar o h2*/
     font-size: 36px; /*Tamanho da letra*/
     margin-top: 0px; /*Espaçamento superior*/
-    color: black;
+    color: black; /*Cor da letra*/
   }
 
   #clients { /* Aqui chamamos nosso ID da Section*/
@@ -227,3 +227,46 @@ font-size: 12px; /*Tamanho da letra*/
   margin-top: 2rem; /*Espaçamento */
   font-weight: 500; /**/
 }
+
+footer {
+  padding: 80px;
+  background-image: url(img/img-footer.jpg);
+  background-repeat:no-repeat;
+  background-position: bottom;
+  
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+footer h2 {
+  color: black;
+  font-size: 40px;
+  font-weight: bold ; /*Espessura da letra*/
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.item-menu-footer { /*Aqui chamamos nossa Class das LI*/
+  align-items: center; /*Posicionamento ao centro*/
+  margin-top: 30px; /*Espaçamento superior*/
+  display: flex; /*Alinhando os itens lado a lado*/
+}
+
+.item-menu-footer > img { /*Aqui chamamos nossa IMG para estilização*/
+  width: 34px; /*Largura da imagem*/
+  height: 34px; /*Altura da imagem*/
+}
+
+.item-menu-footer > p { /*Aqui chamamos nossa Tag P para estilização*/
+color: black; /*Cor da letra*/
+font-size: 24px; /*Tamanho da letra*/
+font-weight: bold; /*Espessura da letra*/
+margin-left: 10px; /*Espaçamento*/
+}
+
+

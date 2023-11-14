@@ -7,10 +7,74 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
+    <!-- Aqui chamamos nossa section para adicionar informações (tags) á ele -->
+     <section id="form-container">  <!-- Damos um nome para a nossa section a qual chamará "Form-Container" -->
+ 
+        <!--  -->
+        <div class="container">
 
-    <section id="form-container">
+            <form action="formulario.php">
+             <!-- Abrimos aqui nossa TAG de fomulário -->
+
+                <h1>Cadastre-se e tenha facilidade e descontos exclusivos</h1>
+                  <!-- Titulo para o nosso formulário -->
 
 
+                <p>Preencha o formúlario abaixo e entraremos em contato com você</p>
+                  <!-- Pequena descrição usando a TAG de Paragráfo -->
+
+
+             <div class="input-single">
+              <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa) -->
+
+                  <label for="Nome">Nome Completo</label>  
+                  <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+
+                  <input type="text" id="nome-box"  class="input"  name="nome" autocomplete="off" required  >  
+                  <!-- Atribuimos que é tipo Text adicionamos um nome para sua classe e desabilitamos a preenchimento automático -->
+
+
+             </div>
+
+              <div class="input-single">
+              <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa) -->
+
+                   <label for="Email">Seu Email</label>
+                     <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+
+                   <input type="email" id="email-box"  class="input"  name="email" autocomplete="off" required >
+                   <!-- Atribuimos que é tipo Text adicionamos um nome para sua classe e desabilitamos a preenchimento automático -->
+
+             </div>
+
+              <div class="input-single">
+                  <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa) -->
+
+
+                   <label for="tel-fone">Seu Telefone</label>
+                   <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+
+
+                   <input type="number"  id="tel-box"   class="input"   name="telefone"  
+                   autocomplete="off" required>
+                   <!-- Atribuimos que é tipo Text adicionamos um nome para sua classe e desabilitamos a preenchimento automático -->
+
+              </div>
+
+
+              <div class="btn">
+
+
+                   <input type="submit" value="Enviar">
+
+
+              </div>
+
+            </form>
+
+            
+
+        </div>
         
     </section>
     
